@@ -1,0 +1,44 @@
+.sect-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.sect-navbar__links{
+    margin: 2%;
+}
+.sect-navbar__links--link{
+    color: black;
+}
+.mission{
+    background-color:#FEFAF5;
+    display: flex;
+    justify-content: space-between;
+    padding: 6%;
+}
+.mission__img{
+    width: 40%;
+}
+.mission__btn{
+    color: white;
+    background-color: #DB7A4E;
+    border: 0;
+    border-radius: 0.8rem;
+    width: 20%;
+    padding: 0.5%;
+}
+.mission__text{
+    width: 50%;
+}
+.image-deck{
+    display: flex;
+    justify-content: center;
+}
+.image-deck__card{
+    width: 20%;
+    border-radius: 0.7rem;
+    margin: 1rem;
+}
+.footer-sect{
+    background-color:#FEFAF5;
+    display: flex;
+    justify-content: space-around;
+}
