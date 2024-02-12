@@ -53,7 +53,7 @@ a {
 .sect-navbar__links__link {
   color: black;
 }
-.sect-navbar__links__active{
+.sect-navbar__links__active {
   text-decoration-thickness: 3px;
   border-bottom: #db7a4e solid;
   border-width: medium;

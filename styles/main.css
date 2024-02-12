@@ -1,43 +1,42 @@
-.mission{
-    background-color:#FEFAF5;
-    display: flex;
-    justify-content: space-between;
-    padding: 6%;
+.mission {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
 }
-.mission__img{
-    width: 40%;
+.mission__img {
+  width: 40%;
 }
-.mission__btn{
-    color: white;
-    background-color: #DB7A4E;
-    border: 0;
-    border-radius: 0.8rem;
-    width: 20%;
-    padding: 0.5%;
+.mission__btn {
+  color: white;
+  background-color: #db7a4e;
+  border: 0;
+  border-radius: 0.8rem;
+  width: 20%;
+  padding: 0.5%;
 }
-.mission__text{
-    width: 50%;
+.mission__text {
+  width: 50%;
 }
-.image-deck{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
+.image-deck {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
 }
-.image-deck__card{
-   display: flex;
-   position: relative;
+.image-deck__card {
+  display: flex;
+  position: relative;
 }
-.image-deck__card__img{
-    width: 80%;
-    border-radius: 0.7rem;
-    margin: 1rem;
+.image-deck__card__img {
+  width: 80%;
+  border-radius: 0.7rem;
+  margin: 1rem;
 }
-.image-deck__title{
-    color: #FEFAF5;
-    position: absolute;
-    top: 80%;
-    left: 55%;
-    font-size: 2rem;
-
+.image-deck__title {
+  color: #fefaf5;
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  font-size: 2rem;
 }
