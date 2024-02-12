@@ -1,32 +1,95 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
-p{
-    font-size: 1rem;
-    color: #335576;
+p {
+  font-size: 1rem;
+  color: #335576;
 }
-h1{
-    font-size: 3rem;
-    font-weight: bold;
-    color: #335576;
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #335576;
 }
-h2{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #335576;
-    margin-top: 0;
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #335576;
+  margin-top: 0;
 }
-h3{
-    font-size: 2rem;
-    font-weight: bold;
-    color: #335576;
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #335576;
 }
-a{
-    text-decoration: none;
-    padding: 1rem;
+a {
+  text-decoration: none;
+  padding: 1rem;
 }
-.subtext{
-    font-size: 0.5rem;
-    color: #DB7A4E;
+.subtext {
+  font-size: 0.5rem;
+  color: #db7a4e;
+}
+
+.small-icons {
+  height: 3rem;
+}
+.footer-sect {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-sect__date-time {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.sect-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.sect-navbar__links {
+  margin: 2%;
+}
+.sect-navbar__links__link {
+  color: black;
+}
+.sect-navbar__links__active{
+  text-decoration-thickness: 3px;
+  border-bottom: #db7a4e solid;
+  border-width: medium;
+}
+.main {
+  background-position: center;
+  background-size: cover;
+}
+.main__title {
+  color: #fefaf5;
+  margin-top: 0;
+  padding: 2%;
+}
+.main__schedule {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+.main__schedule__day {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: white;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.main__schedule__day__text {
+  color: black;
+  text-align: center;
+  background-color: #fefaf5;
+  padding: 20px;
+  margin: 10px;
+}
+.main__schedule__day__title {
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+  text-align: center;
 }

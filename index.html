@@ -14,14 +14,14 @@
           <h2>Travel Site</h2>
         </a>
         <section class="sect-navbar__links">
-          <a class="sect-navbar__links--link" href="./index.html">Home</a>
-          <a class="sect-navbar__links--link" href="./pages/hawaii.html"
+          <a class="sect-navbar__links__link sect-navbar__links__active" href="./index.html">Home</a>
+          <a class="sect-navbar__links__link" href="./pages/hawaii.html"
             >Hawaii</a
           >
-          <a class="sect-navbar__links--link" href="./pages/iceland.html"
+          <a class="sect-navbar__links__link" href="./pages/iceland.html"
             >Iceland</a
           >
-          <a class="sect-navbar__links--link" href="./pages/greece.html"
+          <a class="sect-navbar__links__link" href="./pages/greece.html"
             >Greece</a
           >
         </section>
@@ -41,27 +41,36 @@
         <img
           class="mission__img"
           alt="Company Logo"
-          src="./2.0 - Assets/Images/hero.png"
+          src="./assets/Images/hero.png"
         />
       </section>
       <section class="recommendations">
         <h3>Recommendations</h3>
         <section class="image-deck">
-          <img
-            class="image-deck__card"
-            alt="Hawaii"
-            src="./2.0 - Assets/Images/hawaii.jpg"
-          />
-          <img
-            class="image-deck__card"
-            alt="Iceland"
-            src="./2.0 - Assets/Images/iceland.jpg"
-          />
-          <img
-            class="image-deck__card"
-            alt="Greece"
-            src="./2.0 - Assets/Images/greece.jpg"
-          />
+          <div class="image-deck__card">
+            <img
+              class="image-deck__card__img"
+              alt="Hawaii"
+              src="./assets/Images/hawaii.jpg"
+            />
+            <h4 class="image-deck__title image-deck__hawaii">Hawaii</h4>
+          </div>
+          <div class="image-deck__card">
+            <img
+              class="image-deck__card__img"
+              alt="Iceland"
+              src="./assets/Images/iceland.jpg"
+            />
+            <h4 class="image-deck__title">Iceland</h4>
+          </div>
+          <div class="image-deck__card">
+            <img
+              class="image-deck__card__img"
+              alt="Greece"
+              src="./assets/Images/greece.jpg"
+            />
+            <h4 class="image-deck__title">Greece</h4>
+          </div>
         </section>
       </section>
     </main>
@@ -69,17 +78,39 @@
       <section class="footer-sect">
         <section class="footer-sect__component">
           <h3>Contact</h3>
-          <p class="subtext">EMAIL</p>
-          <p>info@travelsite.com</p>
+          <div>
+            <p class="subtext">EMAIL</p>
+            <p>info@travelsite.com</p>
+          </div>
         </section>
         <section class="footer-sect__component">
           <h3>Hours</h3>
-          <p class="subtext">MONDAY - FRIDAY</p>
-          <p>9:00 AM - 5:00 PM</p>
+          <div class="footer-sect__date-time">
+            <p class="subtext">MONDAY - FRIDAY</p>
+            <p>9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer-sect__date-time">
+            <p class="subtext">SATURDAY</p>
+            <p>10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer-sect__date-time">
+            <p class="subtext">SUNDAY</p>
+            <p>Closed</p>
+          </div>
         </section>
         <section class="footer-sect__component">
           <h3>Social</h3>
-        
+          <div>
+            <a href="">
+              <img alt="instagram" src="./assets/Icons/icon-instagram.png" class="small-icons">
+            </a>
+            <a href="">
+              <img alt="facebook" src="./assets/Icons/icon-facebook.png" class="small-icons">
+            </a>
+            <a href="">
+              <img alt="twitter" src="./assets/Icons/icon-twitter.png" class="small-icons">
+            </a>
+          </div>
         </section>
       </section>
     </footer>
